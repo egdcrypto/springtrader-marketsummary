@@ -1,4 +1,4 @@
-pipeline {
+cd ~/environment/springtrader-marketsummary/charts/marketsummary/templatespipeline {
   agent { label "minimal" }
   stages {
     stage('Build') {
